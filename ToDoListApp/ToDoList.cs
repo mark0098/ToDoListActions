@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ToDoListApp
 {
-    internal class ToDoList
+    public class ToDoList
     {
         private readonly List<TaskItem> _tasks;
         private int _nextId = 1;
