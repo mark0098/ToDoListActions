@@ -12,6 +12,7 @@ jobs:
           dotnet-version: '8.0.x'
       - name: Build project
         run: dotnet build src/YourProject.csproj
+        
   test:
     needs: build
     runs-on: ubuntu-latest
